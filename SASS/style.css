@@ -1,0 +1,45 @@
+.site-title .site-background {
+    background: overlay;
+    color: white;
+    position: relative;
+  }
+  
+  .site-title .site-background h2 {
+    font-family: abel;
+  }
+  
+  .site-title .site-background h3 {
+    font-family: livvic;
+  }
+  
+  .btn2, .btn3 {
+    border-radius: 2rem;
+    background: #a1c4fd;
+    font-size: bold;
+  }
+  
+  .btn2 {
+    color: green;
+    font-family: algerian;
+  }
+  
+  .btn3 {
+    color: darkblue;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .nav .nav-menu .nav-items .nav-elements a:hover {
+    background-color: goldenrod;
+    color: white;
+  }
+  
+  section.royal .royal1:hover {
+    background-color: goldenrod;
+  }
+  
+  section.royal .royal1:hover {
+    background-color: goldenrod;
+  }
+  /*# sourceMappingURL=style.css.map */
