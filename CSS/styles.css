@@ -1,0 +1,260 @@
+@import url(../css/fonts.css);
+
+:root{
+    
+    /*   Theme Colors    */
+    --text-gray:#3f4954;
+    --text-light: #686666da;
+    --bg-color:#0f0f0f;
+    --white:#ffffff;
+    --midnight:#104f55;
+
+    /* gradient color */
+    --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+
+
+
+
+    /*  Theme Font-Family  */
+    --livvic:'livvic',cursive;
+    --Lexend:'Lexend',cursive;
+    --Josefin:'Josefin',cursive;
+    --Anton:'Anton',cursive;
+}
+
+/*-----------Nav-------------*/
+
+.nav{
+    background:rgb(58, 97, 58);
+    overflow:hidden;
+    justify-content: center;
+
+    
+}
+
+.nav .nav-menu{
+    padding-bottom:0;
+}
+
+.nav .nav-menu .nav-items{
+    list-style-type: none;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:0;
+}
+
+.nav .nav-menu .nav-items .nav-elements{
+    padding:0 0rem;    
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.nav .nav-menu .nav-items .nav-elements a{
+    text-decoration: none;
+    color:var(--white);
+    font-size:2rem;
+    display:block;
+    padding:1rem 2rem;
+}
+
+.nav .nav-menu .button1{
+    position: relative;
+    left:520px;
+    font-size:1.5rem;
+    cursor:pointer;
+    border-radius:2;
+    display:flex;
+}
+
+.nav .nav-menu .button1 .bclr{
+    color:rgb(199, 137, 55);
+    margin:0;
+    position:relative;
+    top:20px;
+}
+
+.nav .nav-menu .button1 :hover{
+    color:red;
+    background:black
+    
+}
+
+.nav .nav-menu .button1 .bclr{
+    flex-wrap:wrap;
+}
+.nav .booknow {
+   float: right;
+   padding: 2rem 2rem;
+
+
+  
+}
+.nav .nav-menu .booknow button{
+    display: block;
+    background: transparent;
+    color: black;
+}
+
+.nav .nav-menu .booknow{
+    font-size: 20px;
+}
+
+.nav .nav-menu .booknow button:hover{
+    background-color: black;
+    color:red;
+}
+
+/*-------***---Nav---***------*/
+
+/*----------------Name-----------------*/
+
+section.royal{
+    background: rgb(180, 172, 172);
+    height:10vh;
+    justify-content:center;
+
+}
+section.royal .royal1{
+    font-size: 3rem;
+    font-family: algerian;
+    justify-content:center;
+}
+
+
+
+/*----------***---Name---***------------*/
+
+/*---------------img & txt---------------*/
+
+main .site-title{
+    background: url(../assets/hp4.jpg);
+    height:100vh;
+}
+
+main .site-title .site-background{
+    top:0%;
+    display:grid;
+    grid-template-columns:45% ;
+    position: relative;
+    top:400px;
+    font-family: var(--livvic);
+}
+
+
+main .site-title .site-background .btn{
+    padding:.3rem;
+    width:20;
+    display:grid;
+    background: overlay;
+    color:white;
+    font-weight: bold;
+}
+
+
+
+/*---------***---img & txt---***---------*/
+
+.carousel-inner {
+    background: black;
+   
+}
+.carousel-item{
+    background-size: cover;
+    height: 100vh;
+}
+
+#id1{
+    max-width: 50%;
+    max-height: 100%;
+}
+/*-------------Global-------------*/
+.btn{
+    position: relative;
+    top:8px;
+    font-size: 2rem;
+}
+
+/*-------***---Global---***-------*/
+
+
+/*------------Grid----------------*/
+
+.row{
+    background-color: gray;
+    grid-column-gap:20px ;
+}
+
+/*-----***----Grid----****---------*/
+
+
+.section.twosin1 .mainst-text{
+    justify-content:center;
+    font-weight: bold;
+}
+
+
+/*--------------------Venu and meetings----------------------*/
+
+main .venue-title{
+    height:10vh;
+    display:flex;
+    justify-content:center;
+    background-color: blanchedalmond;
+    font-weight: bold;
+}
+
+/*Table*/
+
+table, th ,td{
+    padding:10px;
+    border: 1px solid black;
+    border-collapse:collapse;
+}
+
+
+th{
+    background-color: gainsboro;
+}
+
+/*-------------***----Venu and meetings---***----------------*/
+
+@media only screen and (max-width: 750px){
+    .nav .nav-menu .nav-items{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction:column;
+        font-size:1rem;
+    }
+    section.name .name1{
+        justify-content: center;
+        position:absolute;
+        right:100px;
+        grid-template-columns: 0;
+    }
+
+    .carousel-inner{
+        height:60vh;
+
+    }
+
+    main .site-title .site-background{
+        display:none;
+    }
+    .table{
+        position:realtive;
+        width:100%;
+        border-collapse:collapse;
+
+    }
+    section.royal{
+        height:20vh;
+    }
+
+
+}
+
+
+
+
+
